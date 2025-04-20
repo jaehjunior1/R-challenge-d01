@@ -1,0 +1,100 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.23rem;
+    line-height: 1.6;
+}
+
+h4 {
+    margin: 0;
+}
+.container {
+   display: flex;
+   justify-content: center;
+   background-color: #F3EED9;
+   align-items: center;
+}
+.paragraphs {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+/* .two--paragraphs {
+    border: 2px solid pink;
+} */
+
+
+
+
+
+h3 {
+    margin-top: 0;
+}
+h2 {
+    width: 20%;
+}
+.flexing {
+    display: flex;
+    gap: 3em;
+}
+
+.huge-g {
+    margin: 0 auto;
+}
+.quality-design {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+}
+.hughs {
+    padding: 80px 0;
+    background-color: #824936;
+    color: #fff;
+}
+.hugh {
+    background-color: #222C2A;
+    color: #fff;
+    padding: 80px 0;
+
+}
+.custom-head {
+
+}
+.heading-paragraph {
+    width: 50%;
+}
+.row {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1128px;
+}
+p {
+    margin-bottom: 3em;
+}
+img {
+    width: 50%;
+}
+.quality-design {
+    color: #824936;
+}
+.lorem-sit {
+    color: #222C2A;
+}
+.heading-layout {
+    text-align: center;
+    width: 30%;
+    padding: 100px 0;
+}
+.centering {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-paragraph .second-paragraph {
+    color: #222C2A;
+}

@@ -1,0 +1,160 @@
+*,*::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    
+
+
+}
+p {
+   font-family: 'Montserrat Regular', sans-serif;
+    font-size: 18px;
+}
+header {
+    background-color: #2E323F;
+    padding: .5em 0;
+}
+.containe {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.roww {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item-btn {
+    background: #A59678;
+    padding: .25em 1em;
+    border-radius: 10em;
+}
+.nav-item + .nav-item {
+    margin-left: 1em;
+}
+.nav-list--primary {
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    margin-right: 1rem;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.intro {
+    background-color: #3B4050;
+    padding: 100px 0;
+    color: #fff;
+}
+.btn {
+    background-color: #A59678;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3em;
+    padding: .65em 1.5em;
+}
+.coloring {
+    color: #A59678;
+}
+.container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.col {
+    text-align: center;
+}
+.half-half {
+    width: 50%;
+}
+section {
+    width: 100%;
+}
+.section-two {
+    background-color: ;
+    padding: 100px 0;
+    color: #3B4050;
+}
+.three-col-title {
+    color: #A59678;
+}
+.col-title {
+    color: #A59678;
+}
+.containers {
+    background-color: #2E323F;
+    padding: 1em;
+    margin-bottom: 1.2em;
+}
+.col-three {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+img {
+    width: 100%;
+}
+.section-four {
+    background-color: #2E323F;
+    color: #fff;
+    padding: 100px 0;
+}
+h4 {
+    color: #A59678;
+}
+.section-three {
+    background-color: #FFFFFF;
+    padding: 100px 0;
+    display: flex;
+}
+.logo {
+    align-items: center;
+}
+.cont {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+   }
+
+@media (max-width: 600px) {
+    .container {
+        display: block;
+    }
+    .half-half, .roww {
+        display: inline;
+       }
+      .section-three {
+        flex-direction: column;
+      }
+    
+}
+@media (max-width: 600px) {
+   
+  
+}
+

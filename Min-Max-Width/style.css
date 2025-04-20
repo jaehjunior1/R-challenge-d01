@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --crl-primary: #ee6352;
+    --crl-body:#333;
+    --crl-bg: #ddd;
+}
+
+body {
+    font-family: basic sans, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125em;
+    color: var(--crl-body);
+    background-color: var(--crl-bg);
+}
+.container {
+    background: #fff;
+    padding: 3em;
+    box-shadow: rgba(0, 0, 0, .15);
+    width: 70%;
+    
+}
+.title {
+    margin: 0 0 .5em;
+    font-weight: 900;
+    color: var(--crl-primary);
+    line-height: .8;
+}

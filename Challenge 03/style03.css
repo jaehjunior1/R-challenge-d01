@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+.container {
+    width: 80%%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.big-container {
+    background-color: #23424a;
+    color: #fff;
+    padding: 100px 0;
+}
+.btn {
+    background-color: #38CFD9;
+    color: #23424a;
+    border: none;
+    padding: .75em 1.25em;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+}
+h1 {
+    font-size: 3rem;
+}
+p {
+    margin-bottom: 3em;
+}
+
+.hero__text {
+    width: 60%;
+}
+.btn :hover,
+.btn :focus {
+    opacity: .75;
+}
+.row {
+    display: flex;
+}
+.col {
+    width: 100%;
+    text-align: center; 
+    line-height: 1.6;
+    text-rendering: ;
+}
+.col + .col {
+    margin-left: 30px;
+}
